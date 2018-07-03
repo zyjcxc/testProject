@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  *         2017年4月18日
  */
-//@EnableJms
+@EnableJms
 @SpringBootApplication
 @MapperScan(basePackages = {"com.meishu.admin.server.dao", "com.meishu.admin.finger.dao"})
 @Slf4j
